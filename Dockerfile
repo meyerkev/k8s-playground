@@ -1,5 +1,5 @@
 # Use the official image as a parent image.
-FROM python:3.9.0
+FROM python:3
 
 # Set the working directory.
 WORKDIR /usr/src/app

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rockset
-        image: rockset
+        image: localhost:32000/meyerkev-rockset
         imagePullPolicy: IfNotPresent
         env:
         - name: NODE_NAME
